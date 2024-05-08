@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Validation</title>
+    <link rel="stylesheet" href="/SITE/resources/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="pass-field">
+        <input type="password" placeholder="Create Password" />
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div class="content">
+        <p>Password must contain:</p>
+        <ul class="requirements-list">
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>At least 8 characters</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>At least 1 number (0...9)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>At least 1 lowercase letter (a...z)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>At least 1 special symbol (!...@)</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>At least 1 uppercase letter (A...Z)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="/SITE/resources/js/app.js"></script>
+  </body>
+</html>
