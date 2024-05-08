@@ -53,9 +53,23 @@ body {
   list-style: none;
   font-size: 1.3rem;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
 }
+
 .requirements-list li i {
   font-size: 0.6rem;
   color: #aaa;
   width: 20px;
+}
+
+.requirements-list li.valid i {
+  font-size: 1.2rem;
+  color: #4285f4;
+}
+.requirements-list li.valid i span {
+  color: #999;
+}
+.requirements-list li span {
+  margin-left: 12px;
 }
